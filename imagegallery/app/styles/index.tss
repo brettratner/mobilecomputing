@@ -1,0 +1,23 @@
+"#indexWindow": {
+	backgroundColor: "#eaeeee"
+},
+
+// iOS applications expect the font's PostScript name
+"Label[platform=ios]": {
+	color: "#333",
+	bottom: 100,
+	font: {
+		fontFamily: 'Pacifico-Regular',
+		fontSize: 36
+	}
+},
+
+// Android applications expect the font's base file name
+"Label[platform=android]": {
+	color: "#333",
+	bottom: 100,
+	font: {
+		fontFamily: 'Pacifico',
+		fontSize: 36
+	}
+}
