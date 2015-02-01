@@ -1,18 +1,18 @@
 <Alloy>
 	<Window id="indexWindow">
 		<ScrollableView showPagingControl="true">
-            <View>
+			<View>
 				<ImageView image="/media/seenoevil.png"></ImageView>
 				<Label>See no evil</Label>
-            </View>
-            <View>
+			</View>
+			<View>
 				<ImageView image="/media/hearnoevil.png"></ImageView>
 				<Label>Hear no evil</Label>
 			</View>
-            <View>
+			<View>
 				<ImageView image="/media/speaknoevil.png"></ImageView>
 				<Label>Speak no evil</Label>
 			</View>
-        </ScrollableView>
+		</ScrollableView>
 	</Window>
 </Alloy>
