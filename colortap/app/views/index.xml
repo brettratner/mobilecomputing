@@ -1,0 +1,7 @@
+<Alloy>
+	<Window id="indexWindow">
+		<Button id="redButton" title="Red" />
+		<Button id="greenButton" title="Green" />
+		<Button id="blueButton" title="Blue" />
+	</Window>
+</Alloy>

@@ -1,0 +1,40 @@
+"#indexWindow": {
+	backgroundColor: "#fff"
+}
+
+"Label": {
+	color: "#000",
+	left: 50
+}
+
+"#redLabel": {
+	top: 100
+},
+
+"#greenLabel": {
+	top: 200
+},
+
+"#blueLabel": {
+	top: 300
+},
+
+"Slider": {
+	min: 0,
+	max: 255,
+	value: 127,
+	left: 50,
+	right: 50
+},
+
+"#redSlider": {
+	top: 130
+},
+
+"#greenSlider": {
+	top: 230
+},
+
+"#blueSlider": {
+	top: 330
+},

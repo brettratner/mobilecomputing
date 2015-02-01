@@ -1,0 +1,10 @@
+<Alloy>
+	<Window id="indexWindow">
+		<Label id="redLabel" text="Red" />
+		<Slider id="redSlider" />
+		<Label id="greenLabel" text="Green" />
+		<Slider id="greenSlider" />
+		<Label id="blueLabel" text="Blue" />
+		<Slider id="blueSlider" />
+	</Window>
+</Alloy>

@@ -1,0 +1,26 @@
+"#indexWindow" : {
+	backgroundColor: "#fff"
+},
+
+"Button" : {
+	width: '80%',
+	height: 50,
+	borderRadius: 5,
+	borderColor: '#000',
+	color: '#fff'
+},
+
+"#redButton" : {
+	top: 100,
+	backgroundColor: '#f00',	
+},
+
+"#greenButton" : {
+	top: 200,
+	backgroundColor: '#690',
+},
+
+"#blueButton" : {
+	top: 300,
+	backgroundColor: '#39f',
+}
