@@ -1,0 +1,6 @@
+<Alloy>
+	<Window id="indexWindow">
+		<Label id="instructionsLabel" text="Shake to choose a random resturant" />
+		<WebView id="webView" />
+	</Window>
+</Alloy>

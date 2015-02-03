@@ -1,0 +1,12 @@
+<Alloy>
+	<Window id="indexWindow">
+		<TextField id="eventTextField" hintText="Event Title"></TextField>
+		<Picker id="datePicker"
+			type="Ti.UI.PICKER_TYPE_DATE"
+			minDate="November 5, 1955"
+			maxDate="November 5, 2055">
+		</Picker>
+        <Button id="calculateButton" title="Calculate" />
+        <Label id="resultsLabel" />
+	</Window>
+</Alloy>

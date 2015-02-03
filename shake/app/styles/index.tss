@@ -1,0 +1,12 @@
+"#indexWindow" : {
+	backgroundColor: "#fff"
+},
+
+"#instructionsLabel" : {
+	color: "#000",
+	top: 200
+},
+
+"#webView" : {
+	visible: false
+}

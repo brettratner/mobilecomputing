@@ -1,0 +1,41 @@
+"#indexWindow" : {
+	backgroundColor: "#fff"
+},
+
+"#eventTextField" : {
+	top: 35,
+	left: 25,
+	right: 25,
+	height: 40,
+	color: '#000',
+	borderStyle: Ti.UI.INPUT_BORDERSTYLE_ROUNDED
+},
+
+"#datePicker[platform=ios]" : {
+	top: 85
+},
+
+"#datePicker[platform=android]" : {
+	top: 85,
+	backgroundColor: '#333'
+},
+
+"#calculateButton" : {
+	top: 300,
+	left: 25,
+	right: 25,
+	backgroundColor: "#690",
+	height: 40,
+	color: '#fff',
+	borderRadius: 5
+},
+
+"#resultsLabel" : {
+	font: {
+		fontSize: 18
+	},
+	color: "#000",
+	top: 400
+}
+
+
