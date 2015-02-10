@@ -1,0 +1,63 @@
+<Alloy>
+	
+	<!-- iOS user interface -->
+	<NavigationWindow id="indexWindow" platform="ios">
+		<Window title="Weather">
+			<TableView id="citiesTableView">
+	            <TableViewSection>
+	                <TableViewRow title="New York, NY" query="New+York,NY" hasChild="true" />
+	                <TableViewRow title="Los Angeles, CA" query="Los_Angeles,CA" hasChild="true" />
+	                <TableViewRow title="Chicago, IL" query="Chicago,IL" hasChild="true" />
+	                <TableViewRow title="Houston, TX" query="Houston,TX" hasChild="true" />
+	                <TableViewRow title="Philadelphia, PA" query="Philadelphia,PA" hasChild="true" />
+	                <TableViewRow title="San Antonio, TX" query="San+Antonio,TX" hasChild="true" />
+	                <TableViewRow title="San Diego, CA" query="San Diego,CA" hasChild="true" />
+	                <TableViewRow title="Dallas, TX" query="Dallas,TX" hasChild="true" />
+	                <TableViewRow title="San Jose, CA" query="San Jose,CA" hasChild="true" />
+	                <TableViewRow title="Austin, TX" query="Austin,TX" hasChild="true" />
+	                <TableViewRow title="Indianapolis, ID" query="Indianapolis,ID" hasChild="true" />
+	                <TableViewRow title="Jacksonville, FL" query="Jacksonville,FL" hasChild="true" />
+	                <TableViewRow title="San Francisco, CA" query="San+Francisco,CA" hasChild="true" />
+	                <TableViewRow title="Columbus, OH" query="Columbus,OH" hasChild="true" />
+	                <TableViewRow title="Charlotte, NC" query="Charlotte,NC" hasChild="true" />
+	                <TableViewRow title="Fort Worth, TX" query="Fort+Worth,TX" hasChild="true" />
+	                <TableViewRow title="Detroit, MI" query="Detroit,MI" hasChild="true" />
+	                <TableViewRow title="El Paso, TX" query="El+Paso,TX" hasChild="true" />
+	                <TableViewRow title="Memphis, TN" query="Memphis,TN" hasChild="true" />
+	                <TableViewRow title="Seattle, WA" query="Seattle,WA" hasChild="true" />
+	                <TableViewRow title="Denver, CO" query="Denver,CO" hasChild="true" />
+	            </TableViewSection>
+	       </TableView>
+		</Window>
+	</NavigationWindow>
+	
+	<!-- Android user interface -->
+	<Window id="indexWindow" title="Weather" platform="android">
+		<TableView id="citiesTableView">
+            <TableViewSection>
+                <TableViewRow title="New York, NY" query="New+York,NY" hasChild="true" />
+	                <TableViewRow title="Los Angeles, CA" query="Los_Angeles,CA" hasChild="true" />
+	                <TableViewRow title="Chicago, IL" query="Chicago,IL" hasChild="true" />
+	                <TableViewRow title="Houston, TX" query="Houston,TX" hasChild="true" />
+	                <TableViewRow title="Philadelphia, PA" query="Philadelphia,PA" hasChild="true" />
+	                <TableViewRow title="San Antonio, TX" query="San+Antonio,TX" hasChild="true" />
+	                <TableViewRow title="San Diego, CA" query="San Diego,CA" hasChild="true" />
+	                <TableViewRow title="Dallas, TX" query="Dallas,TX" hasChild="true" />
+	                <TableViewRow title="San Jose, CA" query="San Jose,CA" hasChild="true" />
+	                <TableViewRow title="Austin, TX" query="Austin,TX" hasChild="true" />
+	                <TableViewRow title="Indianapolis, ID" query="Indianapolis,ID" hasChild="true" />
+	                <TableViewRow title="Jacksonville, FL" query="Jacksonville,FL" hasChild="true" />
+	                <TableViewRow title="San Francisco, CA" query="San+Francisco,CA" hasChild="true" />
+	                <TableViewRow title="Columbus, OH" query="Columbus,OH" hasChild="true" />
+	                <TableViewRow title="Charlotte, NC" query="Charlotte,NC" hasChild="true" />
+	                <TableViewRow title="Fort Worth, TX" query="Fort+Worth,TX" hasChild="true" />
+	                <TableViewRow title="Detroit, MI" query="Detroit,MI" hasChild="true" />
+	                <TableViewRow title="El Paso, TX" query="El+Paso,TX" hasChild="true" />
+	                <TableViewRow title="Memphis, TN" query="Memphis,TN" hasChild="true" />
+	                <TableViewRow title="Seattle, WA" query="Seattle,WA" hasChild="true" />
+	                <TableViewRow title="Denver, CO" query="Denver,CO" hasChild="true" />
+            </TableViewSection>
+       </TableView>
+       
+	</Window>
+</Alloy>
