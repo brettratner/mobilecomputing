@@ -1,0 +1,13 @@
+Things - Using SQLite (no model)
+
+Developed using Titanium Studio
+Author: John Kuiphoff
+
+This example uses the traditional implementation of SQLite. I find that this 
+approach is easier than the preferred 'models' implementation. 
+
+In addition, I've included the models as well implementation as well 
+so that developers can have access to  both approaches: https://github.com/jkuip/mobilecomputing/tree/master/things
+
+Course Website: http://coursescript.com/calendar.php?course=9
+Tutorial: http://coursescript.com/mobilecomputing/chapter5/

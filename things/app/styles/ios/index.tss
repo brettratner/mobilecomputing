@@ -1,0 +1,40 @@
+"#navWindow": {
+	backgroundColor: "#fff",
+},
+
+"#indexWindow": {
+	backgroundColor: "#fff",
+},
+
+"#thingsTableView" : {
+	top: 70,
+	editing: false
+},
+
+"#addContainer" : {
+	backgroundColor: '#eaeeee',
+	top: 0,
+	left: 0,
+	height: 70
+},
+
+"#itemTextField" : {
+	top: 15, 
+	left: 15, 
+	right: 120,
+	height: 40,
+	backgroundColor: '#fff',
+	paddingLeft: 10,
+	borderRadius: 5,
+	color: '#000'
+},
+
+"#addButton" : {
+	top: 15,
+	right: 15,
+	height: 40,
+	width: 90,
+	backgroundColor: '#690',
+	color: '#fff',
+	borderRadius: 5
+}

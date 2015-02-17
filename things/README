@@ -1,0 +1,12 @@
+Things - Using a model
+
+Developed using Titanium Studio
+Author: John Kuiphoff
+
+This example uses a model (with an sql adapter). I find that this approach is more 
+difficult than using the native SQLite implementation / syntax. In addition, I've 
+included the tranditional SQLite implementation as well so that developers can have access to 
+both approaches.
+
+Course Website: http://coursescript.com/calendar.php?course=9
+Tutorial: http://coursescript.com/mobilecomputing/chapter5/

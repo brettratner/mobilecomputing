@@ -1,0 +1,11 @@
+<Alloy>
+	<NavigationWindow id="navWindow">
+		<Window id="indexWindow" title="Things">
+		    <View id="addContainer">
+		    	<TextField id="itemTextField" hintText="Type in a thing" />
+		    	<Button id="addButton" title="Add" />
+		    </View>
+			<TableView id="thingsTableView"></TableView>
+		</Window>
+	</NavigationWindow>
+</Alloy>

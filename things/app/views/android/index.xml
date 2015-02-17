@@ -1,0 +1,14 @@
+<Alloy>
+	<Collection src="things"/> 
+	<Window id="indexWindow" title="Things" platform="android">
+		<View id="addContainer">
+	    	<TextField id="itemTextField" hintText="Type in a thing" />
+	    	<Button id="addButton" title="Add" />
+	    </View>
+		<TableView id="thingsTableView" dataCollection="things">
+            <TableViewSection>
+                <TableViewRow thingId="{$thingId}" title="{$item}" />
+            </TableViewSection>
+       </TableView>
+	</Window>
+</Alloy>

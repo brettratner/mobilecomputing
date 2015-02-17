@@ -1,0 +1,16 @@
+<Alloy>
+	<Collection src="things"/> 
+	<NavigationWindow id="navWindow" platform="ios">
+		<Window id="indexWindow" title="Things">
+		    <View id="addContainer">
+		    	<TextField id="itemTextField" hintText="Type in a thing" />
+		    	<Button id="addButton" title="Add" />
+		    </View>
+			<TableView id="thingsTableView" dataCollection="things">
+	            <TableViewSection>
+	                <TableViewRow thingId="{$thingId}" title="{$item}" />
+	            </TableViewSection>
+	       </TableView>
+		</Window>
+	</NavigationWindow>
+</Alloy>
