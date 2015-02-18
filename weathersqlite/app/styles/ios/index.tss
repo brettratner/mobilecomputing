@@ -1,0 +1,15 @@
+"#navWindow" : {
+	backgroundColor: "#fff",
+}, 
+
+"#indexWindow" : {
+	backgroundColor: "#fff",
+},
+
+"#citiesTableView" : {},
+
+"#addButton" : {
+	systemButton: Ti.UI.iPhone.SystemButton.ADD
+}
+
+

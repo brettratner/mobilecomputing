@@ -1,0 +1,7 @@
+<Alloy>
+	<Window id="addWindow" title="Add City">
+		<TextField id="cityTextField" hintText="City"></TextField>
+		<TextField id="stateTextField" hintText="State"></TextField>
+		<Button id="addCityButton" title="Add"></Button>
+	</Window>
+</Alloy>

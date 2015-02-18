@@ -1,0 +1,36 @@
+"#addWindow" : {
+	modal: true,
+	backgroundColor: '#eaeeee',
+},
+
+"#cityTextField" : {
+	top: 100, 
+	left: 25, 
+	right: 25,
+	height: 40,
+	backgroundColor: '#fff',
+	paddingLeft: 10,
+	borderRadius: 5,
+	color: '#000'
+},
+
+"#stateTextField" : {
+	top: 160, 
+	left: 25, 
+	right: 25,
+	height: 40,
+	backgroundColor: '#fff',
+	paddingLeft: 10,
+	borderRadius: 5,
+	color: '#000'
+},
+
+"#addCityButton" : {
+	top: 220,
+	left: 25,
+	right: 25,
+	height: 40,
+	backgroundColor: '#690',
+	color: '#fff',
+	borderRadius: 5
+}

@@ -1,0 +1,32 @@
+"#detailsWindow" : {
+	backgroundColor: '#fff'
+},
+
+"#activityIndicator[platform=ios]" : {
+	style: Ti.UI.iPhone.ActivityIndicatorStyle.DARK
+},
+
+"#activityIndicator[platform=android]" : {
+	style: Ti.UI.ActivityIndicatorStyle.DARK
+},
+
+"#weatherIcon" : {
+	top: 150
+},
+
+"#tempLabel" : {
+	top: 200,
+	color: '#666',
+	font : {
+		fontSize: 42
+	}
+},
+
+"#descriptionLabel" : {
+	top: 260,
+	color: '#666',
+	font : {
+		fontSize: 18
+	}
+}
+

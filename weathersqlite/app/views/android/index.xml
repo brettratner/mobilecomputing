@@ -1,0 +1,8 @@
+<Alloy>
+	<Window id="indexWindow" title="Weather">
+		<Menu>
+		    <MenuItem id="addButton" title="Add" showAsAction="Ti.Android.SHOW_AS_ACTION_IF_ROOM" onClick="openAddWindow" />
+		</Menu>
+		<TableView id="citiesTableView"></TableView>
+	</Window>
+</Alloy>

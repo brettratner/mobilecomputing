@@ -1,0 +1,10 @@
+<Alloy>
+	<NavigationWindow id="navWindow">
+		<Window id="indexWindow" title="Weather">
+			<RightNavButton>
+				<Button id="addButton" />
+		    </RightNavButton>
+			<TableView id="citiesTableView"></TableView>
+		</Window>
+	</NavigationWindow>
+</Alloy>
