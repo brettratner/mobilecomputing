@@ -1,0 +1,8 @@
+"#indexWindow" : {
+	backgroundColor: "#fff"
+},
+
+"#myMap" : {
+    top: 0,
+    left: 0
+}
