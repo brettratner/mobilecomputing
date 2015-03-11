@@ -1,0 +1,60 @@
+"#navWindow": {
+	backgroundColor: "#fff"
+},
+
+"#indexWindow": {
+	backgroundColor: "#fff",
+	title: "TikTak"
+},
+
+"#messageContainer": {
+	top: 0,
+	left: 0,
+	backgroundColor: "#caeeff"
+},
+
+"#messageTextField": {
+	backgroundColor: "#fff",
+	top: 10,
+	right: 10,
+	left: 10,
+	height: 40,
+	color: '#000',
+	borderStyle: Ti.UI.INPUT_BORDERSTYLE_ROUNDED
+},
+
+"#messagesListView": {
+	backgroundColor: "#fff",
+	top: 60
+},
+
+".template": {
+	height: 100
+}
+
+"#messagesLabel": {
+	textAlign: 'left',
+	color: '#333',
+	font: {
+		fontSize: 16
+	},
+	top: 10,
+	left: 10, 
+	right: 10,
+	height: 'auto'
+},
+
+"#messagesTime": {
+	textAlign: 'left',
+	color: '#690',
+	font: {
+		fontSize: 12
+	},
+	top: 70,
+	left: 10, 
+	right: 10,
+	height: 20
+},
+
+
+

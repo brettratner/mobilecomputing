@@ -1,0 +1,16 @@
+<Alloy>
+	<Window id="indexWindow">
+		<View id="messageContainer">
+			<TextField id="messageTextField" hintText="Type in a message" />
+		</View>
+		<ListView id="messagesListView" onItemclick="itemClicked"  defaultItemTemplate="template" autoStyle="true">
+	        <Templates>
+                <ItemTemplate class="template" name="template">
+                    <Label bindId="message" id="messagesLabel" />
+                    <Label bindId="time" id="messagesTime" />
+                </ItemTemplate>
+            </Templates>
+	        <ListSection/>
+		</ListView>
+	</Window>
+</Alloy>

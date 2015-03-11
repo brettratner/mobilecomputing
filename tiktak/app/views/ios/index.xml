@@ -1,0 +1,19 @@
+<Alloy>
+	<NavigationWindow id="navWindow">
+		<Window id="indexWindow">
+			<View id="messageContainer">
+				<TextField id="messageTextField" hintText="Type in a message" />
+			</View>
+			<ListView id="messagesListView"  defaultItemTemplate="template" autoStyle="true">
+				<RefreshControl id="refresh" tintColor="#393939" onRefreshstart="refreshMessages" />
+		        <Templates>
+	                <ItemTemplate class="template" name="template">
+	                    <Label bindId="message" id="messagesLabel" />
+	                    <Label bindId="time" id="messagesTime" />
+	                </ItemTemplate>
+	            </Templates>
+		        <ListSection/>
+			</ListView>
+		</Window>
+	</NavigationWindow>
+</Alloy>
