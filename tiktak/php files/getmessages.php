@@ -1,10 +1,10 @@
 <?php
 
 // database credentials
-$db_user = 'yourusername';
-$db_password = 'yourpassword';
+$db_user = 'kerrinro_tiktak';
+$db_password = '*********';
 $db_host = 'localhost';
-$db_name = 'yourdatabasename';
+$db_name = 'kerrinro_tiktak';
 
 // connect to the database
 $db = mysqli_connect(
@@ -25,7 +25,7 @@ $longitude = $_GET['longitude'];
 // get all messages within one mile of user
 $sql = "SELECT (
 		(ACOS(SIN($latitude * PI() / 180) * SIN(latitude * PI() / 180) + COS($latitude * PI() / 180) * COS(latitude * PI() / 180) * COS(($longitude - longitude) * PI() / 180)) * 180 / PI()) * 60 * 1.1515)
-		AS distance, message_id, message, latitude, longitude, message_date
+		AS distance, message_id, message, latitude, longitude, message_date, votes
 		FROM messages
 		HAVING distance <= 1 
 		ORDER BY message_date DESC";
@@ -47,6 +47,8 @@ while($row = mysqli_fetch_assoc($result))
 	} else {
 		$timeago = 'just now';
 	}
+    
+    $voteInt = intval($row['votes']);
 	
 	// add to messages array
 	$messages[] = array(
@@ -55,6 +57,7 @@ while($row = mysqli_fetch_assoc($result))
 		'latitude' => $row['latitude'],
 		'longitude' => $row['longitude'],
 		'time' => $timeago,
+        'votes' => $voteInt
 	);
 }
 
