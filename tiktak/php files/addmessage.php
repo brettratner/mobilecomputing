@@ -1,10 +1,10 @@
 <?php
 
 	// database credentials
-	$db_user = 'yourusername';
-	$db_password = 'yourpassword';
-	$db_host = 'localhost';
-	$db_name = 'yourdatabasename';
+	$db_user = 'kerrinro_tiktak';
+    $db_password = '********';
+    $db_host = 'localhost';
+    $db_name = 'kerrinro_tiktak';
 	
 	// connect to the database
 	$db = mysqli_connect(
@@ -16,6 +16,7 @@
 	
 	// clean message
 	$message = mysqli_real_escape_string($db, $_POST['message']);
+echo $message;
 	
 	// add a message
 	$sql = "INSERT INTO messages (

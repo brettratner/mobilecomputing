@@ -29,7 +29,7 @@
 },
 
 ".template": {
-	height: 100
+	height: '100'
 }
 
 "#messagesLabel": {
@@ -40,7 +40,7 @@
 	},
 	top: 10,
 	left: 10, 
-	right: 10,
+	right: 40,
 	height: 'auto'
 },
 
@@ -52,9 +52,33 @@
 	},
 	top: 70,
 	left: 10, 
-	right: 10,
+	right: 40,
 	height: 20
 },
 
 
+"#upArrow": {
+	
+	left: "85%",
+	top: '10%',
+	width: 40,
+	height: 30
+}
 
+"#downArrow": {
+	
+	left: "85%",
+	top: "70%",
+	width: 40,
+	height: 30
+}
+
+"#numVotes": {
+	
+	left: "88.5%",
+	top: "45%",
+	color: "#777", 
+	font: {
+		fontSize: 16
+	},
+}

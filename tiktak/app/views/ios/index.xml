@@ -9,7 +9,10 @@
 		        <Templates>
 	                <ItemTemplate class="template" name="template">
 	                    <Label bindId="message" id="messagesLabel" />
-	                    <Label bindId="time" id="messagesTime" />
+	                    <Label bindId="time" id="messagesTime"/>
+	                    <Label bindId="votes" id="numVotes" />
+	                    <ImageView image="images/uparrow.png" id="upArrow" bindId="up"/>
+	                    <ImageView image="images/downarrow.png" id="downArrow" bindId="down"/>
 	                </ItemTemplate>
 	            </Templates>
 		        <ListSection/>
