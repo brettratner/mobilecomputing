@@ -1,0 +1,16 @@
+<Alloy>
+	<Window title="Say Cheese" id="indexWindow">
+		<Menu>
+            <MenuItem id="addButton" title="Add"  />
+        </Menu>
+		<ProgressBar id="progressBar"></ProgressBar>
+		<OptionDialog id="dialog" title="Choose image source">
+            <Options>
+                <Option>Camera</Option>
+                <Option>Photo Gallery</Option>
+                <Option>Cancel</Option>
+            </Options>
+        </OptionDialog>
+        <Label id="statusLabel" text="Click the 'Add' button to upload an image" />
+	</Window>
+</Alloy>
