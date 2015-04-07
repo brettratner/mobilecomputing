@@ -1,0 +1,7 @@
+<Alloy>
+	<NavigationWindow id="indexWindow">
+		<Window title="My App">
+			<Button id="loginButton">Log in via Facebook</Button>
+		</Window>
+	</NavigationWindow>
+</Alloy>

@@ -1,0 +1,7 @@
+<Alloy>
+	<Window id="welcomeWindow" title="Welcome">
+		<ImageView id="profileImage" />
+		<Label id="fullnameLabel" />
+		<Button id="logoutButton">Log out</Button>
+	</Window>
+</Alloy>

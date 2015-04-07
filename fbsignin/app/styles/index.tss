@@ -1,0 +1,10 @@
+"#indexWindow": {
+	backgroundColor: "white"
+}
+
+"#loginButton": {
+	width: 300,
+	height: 50,
+	backgroundColor: '#39f',
+	color: '#fff'
+}

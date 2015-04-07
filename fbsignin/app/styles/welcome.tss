@@ -1,0 +1,21 @@
+"#welcomeWindow": {
+	backgroundColor: '#fff'
+},
+
+"#fullnameLabel": {
+	top: 25,
+	color: '#000'
+},
+
+"#profileImage": {
+	top: 75
+},
+
+"#logoutButton": {
+	width: 300,
+	height: 50,
+	bottom: 50,
+	backgroundColor: '#39f',
+	color: '#fff'
+}
+
